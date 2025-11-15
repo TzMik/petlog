@@ -82,10 +82,10 @@ El foco es capturar la información crítica de salud y asegurar que solo el due
 Esta fase es la que demuestra el conocimiento completo del ecosistema Laravel.
 | Tarea | Descripción | Tecnología Principal | Estado |
 | --- | --- | --- | --- |
-| C1. Scheduler para Recordatorios | Crear un comando Artisan ejecutado por Scheduler (daily) para identificar citas próximas (7 días). | Laravel Scheduler
-| C2. Jobs y Queues | Despachar un Job asíncrono que busca las mascotas con recordatorios y les envía notificaciones. | Laravel Queues
-| C3. Notificaciones por Email | Implementar Notification con template de Blade para enviar el recordatorio al dueño. | Laravel Notificable
-| C4. Pruebas Funcionales | Escribir pruebas con Pest para el CRUD de Mascotas y el flujo de recordatorios (Aserciones de Base de Datos y Email). | Pest 
+| C1. Scheduler para Recordatorios | Crear un comando Artisan ejecutado por Scheduler (daily) para identificar citas próximas (7 días). | Laravel Scheduler| <span style="color=orange">Pendiente</span> |
+| C2. Jobs y Queues | Despachar un Job asíncrono que busca las mascotas con recordatorios y les envía notificaciones. | Laravel Queues| <span style="color=orange">Pendiente</span> |
+| C3. Notificaciones por Email | Implementar Notification con template de Blade para enviar el recordatorio al dueño. | Laravel Notificable| <span style="color=orange">Pendiente</span> |
+| C4. Pruebas Funcionales | Escribir pruebas con Pest para el CRUD de Mascotas y el flujo de recordatorios (Aserciones de Base de Datos y Email). | Pest | <span style="color=orange">Pendiente</span> |
 ## Contribución
 Las contribuciones son bienvenidas. Si tienes sugerencias o quieres mejorar alguna característica, por favor:
 1. Haz un fork del repositorio.
